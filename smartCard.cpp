@@ -11,7 +11,13 @@ smartCard::smartCard() {
 }
 
 void smartCard::display(){
-    std::cout<<"ID "<<ID<<"\nBalance "<<balance<<"\nType"<<type<<"\n";
+    std::cout<<"ID "<<ID<<"\nBalance "<<balance<<"\nType "<<type<<"\n";
 }
 
+int smartCard::getSmartCardID(){
+    return ID;
+};
 
+void smartCard::setSmartCardID(int ID){
+    this->ID = ID;
+}
