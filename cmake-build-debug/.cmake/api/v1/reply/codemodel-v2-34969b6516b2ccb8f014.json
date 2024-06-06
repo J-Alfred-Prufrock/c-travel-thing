@@ -6,7 +6,7 @@
 			[
 				{
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.28"
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "C___java_assessment_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-C___java_assessment_2-Debug-10effbe1a7244770c1a0.json",
+					"jsonFile" : "target-C___java_assessment_2-Debug-d46b0e087a2da02ab077.json",
 					"name" : "C___java_assessment_2",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/angusroberts-thomson/Desktop/                 /C++ java assessment 2/cmake-build-debug",
-		"source" : "/Users/angusroberts-thomson/Desktop/                 /C++ java assessment 2"
+		"build" : "C:/Users/angus/CLionProjects/c-travel-thing/cmake-build-debug",
+		"source" : "C:/Users/angus/CLionProjects/c-travel-thing"
 	},
 	"version" : 
 	{

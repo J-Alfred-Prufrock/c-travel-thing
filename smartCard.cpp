@@ -10,9 +10,6 @@ smartCard::smartCard() {
     balance = 0;
 }
 
-void smartCard::display(){
-    std::cout<<"ID "<<ID<<"\nBalance "<<balance<<"\nType "<<type<<"\n";
-}
 
 int smartCard::getSmartCardID(){
     return ID;

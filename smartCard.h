@@ -5,7 +5,6 @@
 class smartCard {
 public:
     smartCard();
-    void display();
     int getSmartCardID();
     void setSmartCardID(int ID);
 private:

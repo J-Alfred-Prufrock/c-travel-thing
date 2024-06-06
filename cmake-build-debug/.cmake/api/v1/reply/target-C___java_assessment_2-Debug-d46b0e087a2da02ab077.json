@@ -2,7 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "C___java_assessment_2"
+			"path" : "C___java_assessment_2.exe"
+		},
+		{
+			"path" : "C___java_assessment_2.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -35,7 +38,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu++17 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.4.sdk -fcolor-diagnostics"
+					"fragment" : "-g -fdiagnostics-color=always"
 				}
 			],
 			"language" : "CXX",
@@ -66,12 +69,16 @@
 			{
 				"fragment" : "",
 				"role" : "flags"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
 			}
 		],
 		"language" : "CXX"
 	},
 	"name" : "C___java_assessment_2",
-	"nameOnDisk" : "C___java_assessment_2",
+	"nameOnDisk" : "C___java_assessment_2.exe",
 	"paths" : 
 	{
 		"build" : ".",
